@@ -11,8 +11,8 @@ function get_var_name(){
     $pat = '#(.*)'.__FUNCTION__.' *?\( *?(.*) *?\)(.*)#i';
     // extract $varname from match no 2
     $var  = preg_replace($pat, '$2', $src);
-    // print to browser
-    echo trim($var);
+    // return the var name
+    return trim($var);
 }
 
 // Say you have this PHP code:
