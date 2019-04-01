@@ -4,7 +4,7 @@
 
     $FooBar = "a string";
 
-> and need not only the var_dump($FooBar)but also the Variable Name, you can use this:
+> and need not only the var_dump($FooBar) but also the Variable Name, you can use this:
 
     echo get_var_name($FooBar).' - '.var_dump($FooBar);
 
